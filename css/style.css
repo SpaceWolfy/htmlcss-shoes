@@ -37,4 +37,13 @@ p {
 }
 
 .section-2 {
+  background-color: #008200;
+}
+
+.section-3 {
+  background-color: #ffff00;
+}
+
+.section-3 p {
+  color: #008200;
 }
