@@ -8,6 +8,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+  position: relative;
+}
+
 .section {
   height: 100vh;
   /* background: rebeccapurple; */
@@ -30,6 +34,27 @@ p {
   width: 85%;
 }
 
+.a-background {
+  margin-left: 20px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.a-background a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 /* ------------------------------------- */
 
 .section-1 {
@@ -46,4 +71,15 @@ p {
 
 .section-3 p {
   color: #008200;
+}
+
+/* Bonus */
+
+.navbar {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: black;
+  z-index: 1;
+  position: fixed;
 }
