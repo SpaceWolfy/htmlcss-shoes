@@ -16,6 +16,7 @@ body {
   height: 100vh;
   /* background: rebeccapurple; */
   position: relative;
+  text-align: center;
 }
 
 .content {
@@ -29,9 +30,7 @@ p {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 60px;
-  text-align: center;
   color: #ffff00;
-  width: 85%;
 }
 
 .a-background {
